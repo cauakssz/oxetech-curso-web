@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+h2 {
+    font-size: large;
+    
+}
+
+h3 {
+    font-size: medium;
+    margin: 30px;
+}
+
+.Resposta {
+    color: green
+}
