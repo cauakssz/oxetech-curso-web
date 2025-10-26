@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  background-image: linear-gradient(90deg, #1e3c72, #2a5298,#6db3f2 );
+}
+/* primeira seção */
+.destaque, .section3 {
+    background-color: #e6f0fa;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+/* segunda seção */
+#parallax-img {
+    background-image: url("/images/tech-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.parallax-text {
+    margin: -100px 0 30px 0;
+}
+
+#img-full {
+    background-image: url("/images/tech-bg-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+section {
+  height: 500px;
+  text-align: center;
+  padding: 200px 80px 0;
+  margin:auto
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.center-section {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
